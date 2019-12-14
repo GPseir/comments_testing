@@ -1,0 +1,41 @@
+body {
+    background-image: url('./images/image.png');
+    background-color: rgb(72, 141, 206);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 10%;
+    font-size: 18px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.textarea {
+    width: 600px;
+    height: 200px;
+    opacity: 0.8;
+    border: 2px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    font-size: medium;
+    background-image: url(./images/comments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    z-index: -2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid rgba(46, 46, 46, 0.2);
+    background-color: rgba(3, 104, 3, 0.15);
+    color: black;
+}
